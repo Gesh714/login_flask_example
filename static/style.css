@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para la página de inicio de sesión */
+.login-form {
+    text-align: center;
+}
+
+/* Estilos específicos para el panel de usuario (dashboard) */
+.dashboard {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Estilos para mensajes de flash (pueden variar según la librería utilizada) */
+.flash {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.danger {
+    background-color: #FF5252;
+    color: #fff;
+}
+
+.info {
+    background-color: #2196F3;
+    color: #fff;
+}
